@@ -41,17 +41,6 @@ NS_ASSUME_NONNULL_BEGIN;
 + (BOOL)provideAPIKey:(NSString *)APIKey;
 
 /**
- * Provides your API options to the Google Maps SDK for iOS. Pass an array containing an NSString
- * for each option. The options apply to all maps.
- *
- * This may be called exactly once by your application. It must be called before any iOS Maps SDK
- * object is initialized.
- *
- * @return YES if all the APIOptions were successfully provided.
- */
-+ (BOOL)provideAPIOptions:(NSArray<NSString *> *)APIOptions;
-
-/**
  * Returns the open source software license information for Google Maps SDK for iOS. This
  * information must be made available within your application.
  */

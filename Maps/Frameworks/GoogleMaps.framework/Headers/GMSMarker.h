@@ -19,12 +19,9 @@
 NS_ASSUME_NONNULL_BEGIN;
 
 /**
- * \defgroup MarkerAnimation GMSMarkerAnimation
- * @{
- */
-
-/**
  * Animation types for GMSMarker.
+ *
+ * @related GMSMarker
  */
 typedef NS_ENUM(NSUInteger, GMSMarkerAnimation) {
   /** No animation (default). */
@@ -33,8 +30,6 @@ typedef NS_ENUM(NSUInteger, GMSMarkerAnimation) {
   /** The marker will pop from its groundAnchor when added. */
   kGMSMarkerAnimationPop,
 };
-
-/**@}*/
 
 /**
  * A marker is an icon placed at a particular point on the map's surface. A marker's icon is drawn
