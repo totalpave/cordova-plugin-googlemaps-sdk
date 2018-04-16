@@ -10,6 +10,8 @@
 
 #import <CoreLocation/CoreLocation.h>
 
+#import "GMSPanoramaSource.h"
+
 @class GMSPanorama;
 
 NS_ASSUME_NONNULL_BEGIN;

@@ -13,6 +13,7 @@
 
 #import "GMSOrientation.h"
 #import "GMSPanoramaLayer.h"
+#import "GMSPanoramaSource.h"
 
 @class GMSMarker;
 @class GMSPanorama;
@@ -205,6 +206,23 @@ NS_ASSUME_NONNULL_BEGIN;
  * |coordinate|.
  */
 - (void)moveNearCoordinate:(CLLocationCoordinate2D)coordinate radius:(NSUInteger)radius;
+
+/**
+ * Similar to moveNearCoordinate: but allows specifying a source near |coordinate|.
+ *
+ * This API is experimental and may not always filter by source.
+ */
+- (void)moveNearCoordinate:(CLLocationCoordinate2D)coordinate source:(GMSPanoramaSource)source;
+
+/**
+ * Similar to moveNearCoordinate: but allows specifying a search radius (meters) around
+ * |coordinate| and a source.
+ *
+ * This API is experimental and may not always filter by source.
+ */
+- (void)moveNearCoordinate:(CLLocationCoordinate2D)coordinate
+                    radius:(NSUInteger)radius
+                    source:(GMSPanoramaSource)source;
 
 /**
  * Requests a panorama with |panoramaID|.

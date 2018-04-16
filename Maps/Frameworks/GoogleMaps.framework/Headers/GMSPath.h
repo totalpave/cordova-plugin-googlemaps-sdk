@@ -65,8 +65,6 @@ extern const double kGMSEquatorProjectedMeter;
 /**
  * GMSLengthKind indicates the type of a length value, which can be geodesic (in meters), rhumb
  * length (in meters) and projected length (in GMSMapPoint units).
- *
- * @related GMSPath
  */
 typedef NS_ENUM(NSUInteger, GMSLengthKind) {
   /*
@@ -93,6 +91,8 @@ typedef NS_ENUM(NSUInteger, GMSLengthKind) {
    */
   kGMSLengthProjected
 };
+
+/**@}*/
 
 @interface GMSPath (GMSPathLength)
 
