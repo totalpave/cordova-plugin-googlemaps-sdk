@@ -26,7 +26,7 @@
     <framework src="SystemConfiguration.framework" />
     <framework src="UIKit.framework" />
     <framework src="Base/Frameworks/GoogleMapsBase.framework" custom="true"/>
-    <framework src="M4B/Frameworks/GoogleMapsM4B.framework" custom="true" />
+    <!-- <framework src="M4B/Frameworks/GoogleMapsM4B.framework" custom="true" /> -->
     <framework src="Maps/Frameworks/GoogleMaps.framework" custom="true"/>
     <framework src="Maps/Frameworks/GoogleMapsCore.framework" custom="true"/>
     <resource-file src="Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle"/>
